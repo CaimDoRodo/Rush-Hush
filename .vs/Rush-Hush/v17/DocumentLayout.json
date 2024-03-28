@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lucas\\Rush-Hush\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7699C50E-D1B2-0AB0-1B3C-8671417DB0FE}|Assembly-CSharp.csproj|c:\\users\\lucas\\rush-hush\\assets\\scripts\\player\\seguirplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7699C50E-D1B2-0AB0-1B3C-8671417DB0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\seguirplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7699C50E-D1B2-0AB0-1B3C-8671417DB0FE}|Assembly-CSharp.csproj|c:\\users\\lucas\\rush-hush\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7699C50E-D1B2-0AB0-1B3C-8671417DB0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 164,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeguirPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Rush-Hush\\Assets\\Scripts\\Player\\SeguirPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\SeguirPlayer.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Rush-Hush\\Assets\\Scripts\\Player\\SeguirPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\SeguirPlayer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T22:36:49.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Rush-Hush\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Rush-Hush\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAwwEkAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T17:50:13.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
