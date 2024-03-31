@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\caio_\\Rush-Hush\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7699C50E-D1B2-0AB0-1B3C-8671417DB0FE}|Assembly-CSharp.csproj|c:\\users\\caio_\\rush-hush\\assets\\scripts\\inimigos\\inimigosestaticos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7699C50E-D1B2-0AB0-1B3C-8671417DB0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inimigos\\inimigosestaticos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7699C50E-D1B2-0AB0-1B3C-8671417DB0FE}|Assembly-CSharp.csproj|c:\\users\\caio_\\rush-hush\\assets\\scripts\\utilidade\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7699C50E-D1B2-0AB0-1B3C-8671417DB0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utilidade\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7699C50E-D1B2-0AB0-1B3C-8671417DB0FE}|Assembly-CSharp.csproj|c:\\users\\caio_\\rush-hush\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7699C50E-D1B2-0AB0-1B3C-8671417DB0FE}|Assembly-CSharp.csproj|C:\\Users\\caio_\\Rush-Hush\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7699C50E-D1B2-0AB0-1B3C-8671417DB0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "InimigosEstaticos.cs",
+              "DocumentMoniker": "C:\\Users\\caio_\\Rush-Hush\\Assets\\Scripts\\Inimigos\\InimigosEstaticos.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inimigos\\InimigosEstaticos.cs",
+              "ToolTip": "C:\\Users\\caio_\\Rush-Hush\\Assets\\Scripts\\Inimigos\\InimigosEstaticos.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inimigos\\InimigosEstaticos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T13:27:34.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "HealthController.cs",
               "DocumentMoniker": "C:\\Users\\caio_\\Rush-Hush\\Assets\\Scripts\\Utilidade\\HealthController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Utilidade\\HealthController.cs",
@@ -35,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\caio_\\Rush-Hush\\Assets\\Scripts\\Player\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
@@ -43,8 +60,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
               "ViewState": "AQIAAEcAAAAAAAAAAAAIwCEAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T00:26:32.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T00:26:32.504Z"
             }
           ]
         }
