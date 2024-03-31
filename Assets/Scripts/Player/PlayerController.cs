@@ -9,6 +9,11 @@ public class PlayerController : MonoBehaviour
     public float moveDuration = 1f; // Duração do movimento
 
     public float speed = 5f; // Velocidade de movimento
+    public float gravity = 8;
+
+
+    public float TempoParaCair = 2;
+    private float TempoParaCairCurrent;
 
 
     // Estado atual do movimento
@@ -67,10 +72,22 @@ public class PlayerController : MonoBehaviour
                 {
                     MoveToEndPoint();
                 }
+                TempoParaCairCurrent = TempoParaCair;
             }
         }
 
         // Movimento para frente ao longo do eixo X
         transform.Translate(Vector3.right * speed * Time.deltaTime);
+
+
+        // Gravidade
+        if (transform.position.y > 0 && TempoParaCairCurrent <= 0)
+        
+        transform.Translate(Vector3.down * gravity * Time.deltaTime);
+            
+        
+
+        TempoParaCairCurrent -= Time.deltaTime;
+
     }
 }

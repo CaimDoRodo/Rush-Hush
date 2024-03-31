@@ -1,54 +1,84 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lucas\\Rush-Hush\\",
+  "WorkspaceRootPath": "C:\\Users\\caio_\\Rush-Hush\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7699C50E-D1B2-0AB0-1B3C-8671417DB0FE}|Assembly-CSharp.csproj|c:\\users\\lucas\\rush-hush\\assets\\scripts\\player\\seguirplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7699C50E-D1B2-0AB0-1B3C-8671417DB0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\seguirplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7699C50E-D1B2-0AB0-1B3C-8671417DB0FE}|Assembly-CSharp.csproj|C:\\Users\\caio_\\Rush-Hush\\assets\\scripts\\utilidade\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7699C50E-D1B2-0AB0-1B3C-8671417DB0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utilidade\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7699C50E-D1B2-0AB0-1B3C-8671417DB0FE}|Assembly-CSharp.csproj|c:\\users\\lucas\\rush-hush\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7699C50E-D1B2-0AB0-1B3C-8671417DB0FE}|Assembly-CSharp.csproj|c:\\users\\caio_\\rush-hush\\assets\\scripts\\inimigos\\obstaculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7699C50E-D1B2-0AB0-1B3C-8671417DB0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inimigos\\obstaculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7699C50E-D1B2-0AB0-1B3C-8671417DB0FE}|Assembly-CSharp.csproj|c:\\users\\caio_\\rush-hush\\assets\\scripts\\inimigos\\inimigosestaticos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7699C50E-D1B2-0AB0-1B3C-8671417DB0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inimigos\\inimigosestaticos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7699C50E-D1B2-0AB0-1B3C-8671417DB0FE}|Assembly-CSharp.csproj|C:\\Users\\caio_\\Rush-Hush\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7699C50E-D1B2-0AB0-1B3C-8671417DB0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 164,
+      "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SeguirPlayer.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Rush-Hush\\Assets\\Scripts\\Player\\SeguirPlayer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\SeguirPlayer.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Rush-Hush\\Assets\\Scripts\\Player\\SeguirPlayer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\SeguirPlayer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABEAAAA",
+              "DocumentIndex": 1,
+              "Title": "Obstaculos.cs",
+              "DocumentMoniker": "C:\\Users\\caio_\\Rush-Hush\\Assets\\Scripts\\Inimigos\\Obstaculos.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inimigos\\Obstaculos.cs",
+              "ToolTip": "C:\\Users\\caio_\\Rush-Hush\\Assets\\Scripts\\Inimigos\\Obstaculos.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inimigos\\Obstaculos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T22:36:49.175Z",
+              "WhenOpened": "2024-03-31T17:12:17.489Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\Lucas\\Rush-Hush\\Assets\\Scripts\\Player\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Rush-Hush\\Assets\\Scripts\\Player\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAwwEkAAABEAAAA",
+              "DocumentIndex": 0,
+              "Title": "HealthController.cs",
+              "DocumentMoniker": "C:\\Users\\caio_\\Rush-Hush\\Assets\\Scripts\\Utilidade\\HealthController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utilidade\\HealthController.cs",
+              "ToolTip": "C:\\Users\\caio_\\Rush-Hush\\Assets\\Scripts\\Utilidade\\HealthController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utilidade\\HealthController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBgAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T17:50:13.787Z",
+              "WhenOpened": "2024-03-27T01:14:12.019Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InimigosEstaticos.cs",
+              "DocumentMoniker": "C:\\Users\\caio_\\Rush-Hush\\Assets\\Scripts\\Inimigos\\InimigosEstaticos.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inimigos\\InimigosEstaticos.cs",
+              "ToolTip": "C:\\Users\\caio_\\Rush-Hush\\Assets\\Scripts\\Inimigos\\InimigosEstaticos.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inimigos\\InimigosEstaticos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T13:27:34.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\caio_\\Rush-Hush\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\caio_\\Rush-Hush\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAIwCEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T00:26:32.504Z",
+              "EditorCaption": ""
             }
           ]
         }
