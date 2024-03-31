@@ -16,16 +16,19 @@ public class HealthController : MonoBehaviour
         textMeshPro.text = "Vida: " + vida;
     }
 
-    public void removerVida(int quantidade)
+    public void modificarVida(int quantidade)
     {
         vida += quantidade;
-        textMeshPro.text = "Vida: " + vida;
-    }
 
-    public void adicionarVida(int quantidade)
-    {
-        vida -= quantidade;
+        if (vida >= VidaMaxima) vida = VidaMaxima;
+
         textMeshPro.text = "Vida: " + vida;
+
+        if (vida <= 0)
+        {
+            Debug.Log("TELA DE DERROTA!"); //tela de derrota aqui?
+            vida = 0;
+        }
     }
     
 }

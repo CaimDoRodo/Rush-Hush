@@ -355,6 +355,7 @@
 "Assets/Scripts/Inimigos/Inimigo.cs"
 "Assets/Scripts/Inimigos/InimigosEstaticos.cs"
 "Assets/Scripts/Inimigos/Notas.cs"
+"Assets/Scripts/Inimigos/Obstaculos.cs"
 "Assets/Scripts/Player/PlayerController.cs"
 "Assets/Scripts/Utilidade/HealthController.cs"
 "Assets/Scripts/Utilidade/SeguirPlayer.cs"
