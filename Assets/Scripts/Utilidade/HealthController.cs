@@ -6,14 +6,18 @@ using UnityEngine;
 public class HealthController : MonoBehaviour
 {
 
-    public float VidaMaxima = 100;
-    public float vida;
+    public float VidaMaxima = 30;
+    public float vida = 30;
     public TextMeshProUGUI textMeshPro;
+    private GameManager gm;
 
     void Start()
     {
         vida = VidaMaxima;
         textMeshPro.text = "Vida: " + vida;
+
+        gm = FindObjectOfType<GameManager>();
+
     }
 
     public void modificarVida(int quantidade)
@@ -24,11 +28,14 @@ public class HealthController : MonoBehaviour
 
         textMeshPro.text = "Vida: " + vida;
 
-        if (vida <= 0)
+
+    }
+
+    void Update()
+    {
+        if (vida <= 0 && gm != null)
         {
-            Debug.Log("TELA DE DERROTA!"); //tela de derrota aqui?
-            vida = 0;
+            gm.GameOver();
         }
     }
-    
 }
