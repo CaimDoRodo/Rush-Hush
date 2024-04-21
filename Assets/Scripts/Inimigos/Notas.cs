@@ -5,7 +5,25 @@ using UnityEngine;
 public class Notas : Inimigo
 {
     GameManager gm;
-    
+    public GameObject explosion;
+
+    public int vida;
+
+    public void TomarDano(int quantidade)
+    {
+        vida -= quantidade;
+        if (vida <= 0)
+        {
+            Morre();
+
+        }
+    }
+
+    public virtual void Morre()
+    {
+        Destroy(gameObject);
+    }
+
     void Start() 
     {
         gm = FindObjectOfType<GameManager>();
@@ -13,12 +31,20 @@ public class Notas : Inimigo
 
     void OnTriggerEnter(Collider other)
     {
-
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "hitbox")
         {
-            gm.AddScore(10);
-            Destroy(this.gameObject);
+ 
+                    gm.AddScore(10);
+                    Vector3 position = transform.position;
+                    position.z = -1f;
+                    explosion.transform.position = position;
+
+                    explosion.SetActive(true);
+                    TomarDano(1);
+
         }
+
+        
 
     }
     void Update()

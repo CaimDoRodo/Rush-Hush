@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2223578926231721696}
   - component: {fileID: 8857567240361403235}
   - component: {fileID: -2796267746250718331}
+  - component: {fileID: 5830127024787867732}
   m_Layer: 0
   m_Name: Notas
   m_TagString: Untagged
@@ -47,6 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810cd162be3a6014eb645177a6339739, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosion: {fileID: 0}
   vida: 0
 --- !u!114 &8857567240361403235
 MonoBehaviour:
@@ -60,7 +62,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05bad20d210bb664f81843733bb286d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 0
 --- !u!135 &-2796267746250718331
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -80,8 +81,21 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.5
+  m_Radius: 0.1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5830127024787867732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421228774654678796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34d58133dcee48b42a59f0edfa837c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VidaACurarOuTirar: -10
 --- !u!1 &2516073599904887869
 GameObject:
   m_ObjectHideFlags: 0

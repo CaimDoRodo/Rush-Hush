@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public Transform startPoint; // Ponto inicial
-    public Transform endPoint; // Ponto final
+    public GameObject startPoint; // Ponto inicial (o ponto de cima) clique da esquerda
+    public GameObject endPoint; // Ponto final (o ponto de baixo) clique da direita
     public float moveDuration = 1f; // Duração do movimento
 
     public float speed = 5f; // Velocidade de movimento
@@ -14,26 +14,34 @@ public class PlayerController : MonoBehaviour
 
     public float TempoParaCair = 2;
     private float TempoParaCairCurrent;
+    private bool PodePular = true;
+
+
 
 
     // Estado atual do movimento
     private bool isMoving = false;
 
     // Inicia o movimento para o ponto final
-    public void MoveToEndPoint()
+    public void MoveToEndPoint() 
     {
         if (!isMoving)
         {
-            StartCoroutine(MoveToPoint(endPoint.position));
+            StartCoroutine(MoveToPoint(endPoint.transform.position));
+            PodePular = true;
+            endPoint.GetComponent<Collider>().enabled = true;
         }
     }
 
     // Inicia o movimento para o ponto inicial
     public void MoveToStartPoint()
     {
-        if (!isMoving)
+        if (!isMoving && PodePular == true)
         {
-            StartCoroutine(MoveToPoint(startPoint.position));
+            StartCoroutine(MoveToPoint(startPoint.transform.position));
+            PodePular = false;
+            TempoParaCairCurrent = TempoParaCair; // essa linha so pode ser chamada quando destruir alguma nota ou pisar no chao
+            startPoint.GetComponent<Collider>().enabled = true;
         }
     }
 
@@ -64,15 +72,17 @@ public class PlayerController : MonoBehaviour
 
             if (touch.phase == TouchPhase.Began)
             {
-                if (touch.position.x < Screen.width / 2)
+                if (touch.position.x < Screen.width / 2) //clique da direita
                 {
                     MoveToStartPoint();
+                    
                 }
-                else
+                else //clique da esquerda
                 {
                     MoveToEndPoint();
+                    
                 }
-                TempoParaCairCurrent = TempoParaCair;
+                
             }
         }
 
@@ -89,5 +99,13 @@ public class PlayerController : MonoBehaviour
 
         TempoParaCairCurrent -= Time.deltaTime;
 
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("chao"))
+        {
+            PodePular = true;
+        }
     }
 }

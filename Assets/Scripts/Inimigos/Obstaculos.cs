@@ -16,7 +16,7 @@ public class Obstaculos : MonoBehaviour
             healthController.modificarVida(VidaACurarOuTirar);
 
 
-            DestroyObject(gameObject);
+            Destroy(this.gameObject);
         }
     }
 }
