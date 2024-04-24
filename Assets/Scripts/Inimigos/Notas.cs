@@ -49,9 +49,6 @@ public class Notas : Inimigo
     }
     void Update()
     {
-        if (gm.score >= 40 && gm != null)
-        {
-            gm.Vitoria();
-        }
+
     }
 }
